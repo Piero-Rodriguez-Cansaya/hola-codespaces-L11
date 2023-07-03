@@ -1,8 +1,13 @@
-GET https://render-codespaces.onrender.com/
+GET https://render-idat.onrender.com/
 ###
-GET https://render-codespaces.onrender.com/demo/all
+GET https://render-idat.onrender.com/demo/all
 ###
-POST https://dbalejandro.onrender.com/demo/add
+POST https://render-idat.onrender.com/demo/add
 Content-Type: application/x-www-form-urlencoded
 
-name=Juan&email=juan@idat.edu.pe
+name=Juana&email=Juana@idat.edu.pe
+###
+DELETE https://render-idat.onrender.com/demo/del
+Content-Type: application/x-www-form-urlencoded
+
+id=1
